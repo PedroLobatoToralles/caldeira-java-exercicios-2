@@ -1,3 +1,7 @@
 public class Moto extends Veiculo {
-    double custo = 0.15;
+
+    @Override
+    public double calcularCustoViagem(double distancia) {
+        return 0.15 * distancia;
+    }
 }

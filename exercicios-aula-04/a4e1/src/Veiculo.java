@@ -1,10 +1,9 @@
-public class Veiculo {
+public abstract class Veiculo {
 
     public String marca;
     public String modelo;
     public int ano;
+    public double custo;
 
-    public void calcularCustoViagem(int distancia) {
-
-    }
+    public abstract double calcularCustoViagem(double distancia);
 }
