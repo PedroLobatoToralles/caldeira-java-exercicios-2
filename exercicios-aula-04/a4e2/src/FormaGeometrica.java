@@ -1,7 +1,5 @@
-public class FormaGeometrica {
+public abstract class FormaGeometrica {
 
 
-    public void calcularArea() {
-
-    }
+    public abstract double calcularArea();
 }
